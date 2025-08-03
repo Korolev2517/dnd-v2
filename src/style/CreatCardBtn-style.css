@@ -1,0 +1,17 @@
+.create-card-btn {
+    width: 60px;
+    height: 30px;
+    border: none;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    background-color: lightsteelblue;
+}
+
+.card {
+    margin-top: 5px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+}
