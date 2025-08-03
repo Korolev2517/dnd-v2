@@ -1,16 +1,13 @@
-// import '../style/Card-style.css'
-// import {useState} from "react";
-//
-// export function Card() {
-//     const [cards, setCards] = useState<Card[]>([]);
-//
-//     type Card = {
-//         id: number;
-//     }
-//
-//     return (
-//         <div className="card">
-//
-//         </div>
-//     )
-// }
+import '../style/Card-style.css'
+
+type Card = {
+    id: number;
+}
+
+export function CardComponent({ id }: Card) {
+    return (
+        <div className="card"
+             key={id}>
+        </div>
+    )
+}
